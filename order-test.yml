@@ -15,4 +15,4 @@ eureka:
 server:
   port: 8002
 env:
-  test
+  test2
