@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
