@@ -6,8 +6,6 @@ spring:
     username: root
   jpa:
     show-sql: true
-  rabbitmq:
+  redis:
     host: 192.168.199.249
-    password: guest
-    port: 5672
-    username: guest
+    port: 6379
