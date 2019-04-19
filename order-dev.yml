@@ -3,16 +3,16 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://192.168.199.249/sell_cloud?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.43.160/sell_cloud?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
   rabbitmq:
-    host: 192.168.199.249
+    host: 192.168.43.160
     username: guest
     password: guest
     port: 5672
   redis:
-    host: 192.168.199.249
+    host: 192.168.43.160
     port: 6379
 eureka:
   client:
